@@ -15,7 +15,7 @@ function Banner() {
                 <img src={logo} alt='Un ballon idéale pour représenter la passion'/>
             </div>
             <div className='text-content'>
-                <h1>MERCATO React</h1>
+                <h1 id='title'>FOOT - TRADER</h1>
                 <span>{alertNotification}</span>
             </div>
             <div className='cart-icon'>
@@ -27,5 +27,8 @@ function Banner() {
         </header>
     );
 }
+
+/*{const title = document.getElementById('title');
+title.textContent = 'Gilles'}*/
 
 export default Banner;

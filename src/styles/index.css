@@ -7,6 +7,7 @@
     font-family: 'Roboto';
 }
 
-h1 {
+h1, .title {
     font-family: 'Kdam Thmor Pro';
+    font-weight: 500;
 }

@@ -39,7 +39,7 @@ import Morocco from '../assets/images/countries/Morocco.png'
 import Norway from '../assets/images/countries/Norway.png'
 import Poland from '../assets/images/countries/Poland.png'
 import Spain from '../assets/images/countries/Spain.png'
-import Cameroon from '../assets/images/countries/Spain.png'
+import Cameroon from '../assets/images/countries/Cameroon.png'
 
 export const playerList = [
   {

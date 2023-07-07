@@ -5,6 +5,7 @@ header.shop-banner {
     background-color: #008000;
     padding: 20px 40px;
     box-shadow: 4px 2px 10px;
+    margin-bottom: 40px;
 }
 
 .img-container, .cart-icon {
