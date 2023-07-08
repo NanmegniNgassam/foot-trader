@@ -2,7 +2,7 @@ import logo from '../assets/images/ball.svg'
 import logoCart from '../assets/images/négociation.png'
 import '../styles/Banner.css'
 
-function Banner() {
+function Banner({isShownMenu, setIsShownMenu}) {
     const currentMonth = new Date().getMonth();
     const isTransfertWindowOpen = (currentMonth === 0) // Fenêtre de transfert hivernale
                                   || ((currentMonth >= 5) && (currentMonth <= 7)); // Période de mercato estivale
@@ -18,7 +18,7 @@ function Banner() {
                 <h1 id='title'>FOOT - TRADER</h1>
                 <span>{alertNotification}</span>
             </div>
-            <div className='cart-icon'>
+            <div className='cart-icon' onClick={() => setIsShownMenu(!isShownMenu)}>
                 <img src={logoCart} alt='Cliquez ici pour visualiser les joueurs de votre liste'/>
                 <span className='cartItem-insight'>
                     4

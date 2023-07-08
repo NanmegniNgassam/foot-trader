@@ -1,0 +1,52 @@
+.cart-layout {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    box-shadow: -4px -4px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+}
+.cart-layout div > span {
+    display: block;
+    text-align: center;
+}
+.cart-layout .cart-summary {
+    font-size: 18px;
+}
+
+.cart-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cart-header box-icon {
+    text-align: left;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.cart-header .title {
+    font-size: 24px;
+}
+
+
+.cart-validation {
+    line-height: 40px;
+}
+.cart-validation .action-btn {
+    color: #008000;
+    width: 80%;
+    height: 40px;
+    border: 3px solid #008000;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro';
+    transition: .5s;
+    border-radius: 5px;
+}
+.cart-validation .action-btn:hover {
+    color: #FFFFFF;
+    background-color: #008000;
+}
