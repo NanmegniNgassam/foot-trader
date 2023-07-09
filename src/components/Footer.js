@@ -1,4 +1,3 @@
-import footerImg from '../assets/images/footer-image.jpg';
 import pisoft from '../assets/images/pisoft.png';
 import openClassRoom from '../assets/images/Logo_OpenClassrooms.png';
 import coursera from '../assets/images/coursera_logo.png'

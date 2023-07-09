@@ -1,0 +1,19 @@
+.data-first-face p {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.data-first-face p span {
+    text-align: center;
+}
+
+.data-first-face span img {
+    width: 30px;
+}
+
+.data-second-face p {
+    margin-bottom: 2px;
+}

@@ -41,7 +41,7 @@ import Poland from '../assets/images/countries/Poland.png'
 import Spain from '../assets/images/countries/Spain.png'
 import Cameroon from '../assets/images/countries/Cameroon.png'
 
-export const playerList = [
+const playerList = [
   {
     id : '1cr',
     name : 'Cristiano RONALDO',
@@ -657,5 +657,7 @@ export const playerList = [
     pass : 91,
     speed : 92,
     agility : 90
-  },
+  }
 ]
+
+export default playerList;
