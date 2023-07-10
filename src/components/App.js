@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Banner isShownMenu={isShownMenu} setIsShownMenu={setIsShownMenu} />
       <main className='main-layout'>
-        {/* <PlayerList /> */}
+        <PlayerList />
         <Cart isShownMenu={isShownMenu} setIsShownMenu={setIsShownMenu} />
       </main>
       <Footer />

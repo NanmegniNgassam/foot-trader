@@ -6,6 +6,7 @@
     padding: 20px;
     max-width: 300px;
     border: 1px solid #333;
+    background-color: #dbdada;
 }
 
 .playerItem > img{
@@ -51,4 +52,14 @@
 .playerItem .player-informations .action-btn:hover {
     color: goldenrod;
     background-color: #FFFFFF;
+}
+
+
+
+
+
+@media screen and (max-width : 600px) {
+    .playerItem {
+        max-width: 600px;
+    }
 }

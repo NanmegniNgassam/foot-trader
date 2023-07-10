@@ -39,7 +39,7 @@
 }
 .cart-validation .action-btn {
     color: #daa520;
-    width: 60%;
+    width: 80%;
     height: 40px;
     border: 3px solid #daa520;
     margin: 0 auto;
@@ -77,5 +77,6 @@
         color: #FFFFFF;
         background-color: #daa520;
         height: 30px;
+        font-size: 14px;
     }
 }

@@ -1,4 +1,5 @@
 .list-layout {
+    width: 90%;
     max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 80px;
@@ -8,6 +9,23 @@
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 30px;
     column-gap: 50px;
+    row-gap: 30px;
+}
+
+@media screen and (max-width : 1000px) {
+    .list-layout {
+        max-width: 800px;
+    }
+    .list-layout ul {
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        width: 80%;    
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .list-layout ul {
+        grid-template-columns: 1fr;
+    }
 }
