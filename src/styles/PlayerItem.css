@@ -6,8 +6,6 @@
     padding: 20px;
     max-width: 300px;
     border: 1px solid #333;
-    cursor: pointer;
-
 }
 
 .playerItem > img{
@@ -36,11 +34,13 @@
 }
 .playerItem .player-informations .hint {
     font-size: 12px;
+    text-align: center;
+    cursor: pointer;
 }
 .playerItem .player-informations .action-btn {
     border: 1px solid black;
     padding: 10px;
-    background-color: #4169e1;
+    background-color: goldenrod;
     box-shadow: 2px 2px 1px black;
     color: #FFFFFF;
     font-weight: 500;
@@ -49,6 +49,6 @@
     text-transform: uppercase;
 }
 .playerItem .player-informations .action-btn:hover {
-    color: #4169e1;
+    color: goldenrod;
     background-color: #FFFFFF;
 }

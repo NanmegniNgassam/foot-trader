@@ -21,22 +21,16 @@ const PlayerData = ({player, isCardClicked, setIsCardClicked}) => {
             </p>
             <p>
                 <span>Pied fort : {(player.strongFoot === 'R') ? 'Droit' : 'Gauche'}</span>
-                <span
-                    style={(player.speed >= 90) ? {color : 'goldenrod'}: {color : '#00c900'}}
-                >
-                    Vitesse : {player.speed} 
+                <span>
+                    Vitesse : <strong style={(player.speed >= 90) ? {color : 'goldenrod'}: {color : '#00c900'}}>{player.speed}</strong> 
                 </span>
             </p>
             <p>
-                <span
-                    style={(player.precision >= 90) ? {color : 'goldenrod'}: {color : '#00c900'}}
-                >
-                    Précision : {player.precision} 
+                <span>
+                    Précision : <strong style={(player.precision >= 90) ? {color : 'goldenrod'}: {color : '#00c900'}}>{player.precision}</strong> 
                 </span>
-                <span
-                    style={(player.pass >= 90) ? {color : 'goldenrod'}: {color : '#00c900'}}
-                >
-                    Passe : {player.pass} 
+                <span>
+                    Passe : <strong style={(player.pass >= 90) ? {color : 'goldenrod'}: {color : '#00c900'}}>{player.pass}</strong> 
                 </span>
             </p>
         </div>

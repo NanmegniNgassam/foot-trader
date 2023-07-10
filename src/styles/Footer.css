@@ -1,5 +1,5 @@
 footer {
-    background-color: #008000;
+    background-color: royalblue;
     padding: 40px 10%;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ hr {
 
 .about-section > a {
     background-color: #FFFFFF;
-    color: #008000;
+    color: #4169e1;
     width: 300px;
     text-align: center;
     height: 50px;

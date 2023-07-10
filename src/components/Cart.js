@@ -8,7 +8,7 @@ function Cart({isShownMenu, setIsShownMenu}) {
     return isShownMenu ? (
         <section className='cart-layout'>
             <div className='cart-header'>
-                <box-icon name='x-circle' type='solid' color='#008000' onClick={()=>(setIsShownMenu(!isShownMenu))}></box-icon>
+                <box-icon name='x-circle' type='solid' color='#daa520' onClick={()=>(setIsShownMenu(!isShownMenu))}></box-icon>
                 <span className='title'>LISTE DE NEGOCIATION</span>
                 <span className='cart-summary'>Votre liste compte actuellement {cartItemCounter} Joueur(s)</span>
             </div>

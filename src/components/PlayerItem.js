@@ -8,11 +8,11 @@ const PlayerItem = ({player}) => {
     const textAction = (isListed) ? 'Négociations en cours ...' : 'Lancer les négociations';
 
     return (
-        <li className="playerItem" key={player.id} onClick={() => setIsCardClicked(!isCardClicked)}>
+        <li className="playerItem" key={player.id} >
             
             <img src={player.cover} alt={player.description} />
 
-            <div className="player-informations">
+            <div className="player-informations" >
                 <p>
                     <span className='player-name title'>{player.name}</span>
                     <span 
@@ -25,7 +25,7 @@ const PlayerItem = ({player}) => {
 
                 <PlayerData player={player} isCardClicked={isCardClicked} setIsCardClicked={setIsCardClicked} />
 
-                <p className='hint' >Cliquez sur la carte pour plus d'informations</p>
+                <p className='hint' onClick={() => setIsCardClicked(!isCardClicked)}>Cliquez ici pour plus d'informations</p>
                 <span className='action-btn' onClick={() => setIsListed(true)}> {textAction} </span>
             </div>
         </li>

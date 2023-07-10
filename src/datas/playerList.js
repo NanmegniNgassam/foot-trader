@@ -59,10 +59,8 @@ const playerList = [
     weight : 85,
     strongFoot : 'R',
     precision : 91,
-    dribble : 87,
     pass : 86,
     speed : 92,
-    agility : 90
   },
   {
     id : '2lm',
@@ -81,10 +79,8 @@ const playerList = [
     weight : 67,
     strongFoot : 'L',
     precision : 95,
-    dribble : 96,
     pass : 97,
     speed : 93,
-    agility : 90
   },
   {
     id : '3km',
@@ -103,10 +99,8 @@ const playerList = [
     weight : 73,
     strongFoot : 'R',
     precision : 98,
-    dribble : 96,
     pass : 97,
     speed : 98,
-    agility : 94
   },
   {
     id : '4eh',
@@ -125,10 +119,8 @@ const playerList = [
     weight : 88,
     strongFoot : 'L',
     precision : 95,
-    dribble : 90,
     pass : 97,
     speed : 95,
-    agility : 98
   },
   {
     id : '5jf',
@@ -147,10 +139,8 @@ const playerList = [
     weight : 70,
     strongFoot : 'L',
     precision : 88,
-    dribble : 92,
     pass : 90,
     speed : 92,
-    agility : 89
   },
   {
     id : '6rl',
@@ -169,10 +159,8 @@ const playerList = [
     weight : 81,
     strongFoot : 'R',
     precision : 95,
-    dribble : 86,
     pass : 90,
     speed : 84,
-    agility : 91
   },
   {
     id : '8ec',
@@ -191,10 +179,8 @@ const playerList = [
     weight : 84,
     strongFoot : 'R',
     precision : 90,
-    dribble : 89,
     pass : 92,
     speed : 83,
-    agility : 86
   },
   {
     id : '9pp',
@@ -213,10 +199,8 @@ const playerList = [
     weight : 84,
     strongFoot : 'L',
     precision : 81,
-    dribble : 89,
     pass : 92,
     speed : 89,
-    agility : 80
   },
   {
     id : '10ag',
@@ -235,10 +219,8 @@ const playerList = [
     weight : 73,
     strongFoot : 'L',
     precision : 83,
-    dribble : 80,
     pass : 82,
     speed : 83,
-    agility : 79
   },
   {
     id : '11jm',
@@ -257,10 +239,8 @@ const playerList = [
     weight : 70,
     strongFoot : 'L',
     precision : 90,
-    dribble : 94,
     pass : 88,
     speed : 91,
-    agility : 90
   },
   {
     id : '12km',
@@ -279,10 +259,8 @@ const playerList = [
     weight : 76,
     strongFoot : 'L',
     precision : 86,
-    dribble : 76,
     pass : 80,
     speed : 84,
-    agility : 81
   },
   {
     id : '13jb',
@@ -301,10 +279,8 @@ const playerList = [
     weight : 75,
     strongFoot : 'R',
     precision : 92,
-    dribble : 89,
     pass : 91,
     speed : 87,
-    agility : 82
   },
   {
     id : '14nt',
@@ -323,10 +299,8 @@ const playerList = [
     weight : 79,
     strongFoot : 'R',
     precision : 75,
-    dribble : 70,
     pass : 81,
     speed : 84,
-    agility : 80
   },
   {
     id : '15ao',
@@ -345,10 +319,8 @@ const playerList = [
     weight : 93,
     strongFoot : 'L',
     precision : 84,
-    dribble : 72,
     pass : 87,
     speed : 83,
-    agility : 92
   },
   {
     id : '16lm',
@@ -367,10 +339,8 @@ const playerList = [
     weight : 72,
     strongFoot : 'R',
     precision : 90,
-    dribble : 86,
     pass : 81,
     speed : 91,
-    agility : 87
   },
   {
     id : '17mo',
@@ -389,10 +359,8 @@ const playerList = [
     weight : 76,
     strongFoot : 'L',
     precision : 92,
-    dribble : 91,
     pass : 97,
     speed : 93,
-    agility : 90
   },
   {
     id : '18kd',
@@ -411,10 +379,8 @@ const playerList = [
     weight : 70,
     strongFoot : 'L',
     precision : 90,
-    dribble : 90,
     pass : 95,
     speed : 93,
-    agility : 90
   },
   {
     id : '19hz',
@@ -433,10 +399,8 @@ const playerList = [
     weight : 65,
     strongFoot : 'R',
     precision : 87,
-    dribble : 80,
     pass : 89,
     speed : 86,
-    agility : 83
   },
   {
     id : '20rv',
@@ -455,10 +419,8 @@ const playerList = [
     weight : 81,
     strongFoot : 'R',
     precision : 81,
-    dribble : 69,
     pass : 85,
     speed : 83,
-    agility : 79
   },
   {
     id : '21vj',
@@ -477,10 +439,8 @@ const playerList = [
     weight : 73,
     strongFoot : 'R',
     precision : 95,
-    dribble : 96,
     pass : 92,
     speed : 96,
-    agility : 92
   },
   {
     id : '22at',
@@ -499,10 +459,8 @@ const playerList = [
     weight : 81,
     strongFoot : 'L',
     precision : 75,
-    dribble : 80,
     pass : 84,
     speed : 90,
-    agility : 76
   },
   {
     id : '23nn',
@@ -521,10 +479,8 @@ const playerList = [
     weight : 72,
     strongFoot : 'L',
     precision : 91,
-    dribble : 80,
     pass : 92,
     speed : 93,
-    agility : 85
   },
   {
     id : '24kb',
@@ -543,10 +499,8 @@ const playerList = [
     weight : 81,
     strongFoot : 'R',
     precision : 97,
-    dribble : 89,
     pass : 91,
     speed : 93,
-    agility : 90
   },
   {
     id : '25tc',
@@ -565,10 +519,8 @@ const playerList = [
     weight : 96,
     strongFoot : 'L',
     precision : 91,
-    dribble : 76,
     pass : 89,
     speed : 91,
-    agility : 96
   },
   {
     id : '26mn',
@@ -587,10 +539,8 @@ const playerList = [
     weight : 93,
     strongFoot : 'R',
     precision : 90,
-    dribble : 92,
     pass : 94,
     speed : 93,
-    agility : 97
   },
   {
     id : '27mv',
@@ -609,10 +559,8 @@ const playerList = [
     weight : 75,
     strongFoot : 'L',
     precision : 91,
-    dribble : 90,
     pass : 93,
     speed : 93,
-    agility : 81
   },
   {
     id : '28eh',
@@ -631,10 +579,8 @@ const playerList = [
     weight : 74,
     strongFoot : 'R',
     precision : 79,
-    dribble : 80,
     pass : 84,
     speed : 87,
-    agility : 82
   },
   {
     id : '29sr',
@@ -653,10 +599,8 @@ const playerList = [
     weight : 82,
     strongFoot : 'R',
     precision : 90,
-    dribble : 88,
     pass : 91,
     speed : 92,
-    agility : 90
   }
 ]
 
