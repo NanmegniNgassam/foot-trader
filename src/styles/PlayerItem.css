@@ -48,6 +48,7 @@
     cursor: pointer;
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     text-transform: uppercase;
+    text-align: center;
 }
 .playerItem .player-informations .action-btn:hover {
     color: goldenrod;
@@ -55,11 +56,36 @@
 }
 
 
-
+@media screen and (max-width : 1000px) {
+    .playerItem {
+        max-width: 600px;
+    }
+    .playerItem .player-informations {
+        gap: 8px;
+    }
+    .playerItem .player-informations .player-name {
+        font-size: 18px;
+    }
+    .playerItem .player-informations .player-grade {
+        font-size: 26px;
+    }
+    .playerItem .player-informations .action-btn {
+        font-size: 14px;
+    }
+}
 
 
 @media screen and (max-width : 600px) {
-    .playerItem {
-        max-width: 600px;
+    .playerItem > img{
+        width: 60%;
+    }
+    .playerItem .player-informations {
+        gap: 5px;
+    }
+    .playerItem .player-informations p span {
+        font-size: 14px;
+    }
+    .playerItem .player-informations .hint {
+        font-size: 10px;
     }
 }

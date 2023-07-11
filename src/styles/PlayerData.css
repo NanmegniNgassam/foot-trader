@@ -17,3 +17,17 @@
 .data-second-face p {
     margin-bottom: 2px;
 }
+
+
+@media screen and (max-width : 600px) {
+    .data-first-face p {
+        margin-bottom: 8px;
+    }
+}
+
+
+@media screen and (max-width : 1000px) {
+    .data-first-face p {
+        margin-bottom: 5px;
+    }
+}
