@@ -35,7 +35,8 @@ hr {
 .about-section > a {
     background-color: #FFFFFF;
     color: #4169e1;
-    width: 300px;
+    max-width: 300px;
+    width: 90%;
     text-align: center;
     height: 50px;
     line-height: 50px;

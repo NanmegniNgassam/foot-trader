@@ -2,8 +2,13 @@ import '../styles/Cart.css'
 import 'boxicons';
 import CartItem from './CartItem';
 
-function Cart({isShownMenu, setIsShownMenu, cart, setCart, cartItemCount}) {
-    const listAmount = 187.2;
+function Cart({isShownMenu, setIsShownMenu, cart, setCart, cartItemCount, setCartItemCount}) {
+    const listAmount = cart.reduce((amount, currentItem) => (amount + currentItem.transfertAmount), 0);
+
+    function emptyCart() {
+        setCart([]);
+        setCartItemCount(0);
+    }
 
     return isShownMenu ? (
         <section className='cart-layout'>
@@ -14,17 +19,30 @@ function Cart({isShownMenu, setIsShownMenu, cart, setCart, cartItemCount}) {
             </div>
             <div className='cart-items'>
                 {cart.map((cartItem) => (
-                    <CartItem cartItem={cartItem} />
+                    <CartItem 
+                        cartItem={cartItem} 
+                        cart={cart}
+                        setCart={setCart}
+                        cartItemCount={cartItemCount}
+                        setCartItemCount={setCartItemCount}
+                    />
                 ))}
             </div>
             <div className='cart-validation'>
                 <span className='cart-summary'>Votre liste de négociation est estimée à {listAmount} millions d'€.</span>
-                <span className='action-btn'>Vider la liste</span>
-                <span className='action-btn submit'>Lancer les négociations</span>
+                <span className='action-btn' onClick={() => emptyCart()}>Vider la liste</span>
+                <span 
+                    className='action-btn submit' 
+                    onClick={() => {
+                        alert('Le bureau de recrutement du club engage immédiatemment la procédure et vous tiendra au courant !');
+                        emptyCart();
+                    }}
+                >
+                    Lancer les négociations
+                </span>
             </div>
         </section>
     ) : null;
-    /*{Ajouter un bouton vider la liste}*/
 
 }
 

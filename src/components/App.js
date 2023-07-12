@@ -40,6 +40,7 @@ function App() {
           cart={cart} 
           setCart={setCart} 
           cartItemCount={cartItemCount}
+          setCartItemCount={setCartItemCount}
         />
       </main>
       <Footer />
