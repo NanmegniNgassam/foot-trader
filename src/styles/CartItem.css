@@ -1,0 +1,29 @@
+.cart-item {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+}
+
+.cart-item .text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cart-item .text-content p {
+    min-width: 120px;
+}
+.cart-item box-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    background-color: #FFFFFF;
+    cursor: pointer;
+}

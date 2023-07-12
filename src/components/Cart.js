@@ -1,8 +1,8 @@
 import '../styles/Cart.css'
 import 'boxicons';
+import CartItem from './CartItem';
 
-function Cart({isShownMenu, setIsShownMenu}) {
-    const cartItemCounter = 2;
+function Cart({isShownMenu, setIsShownMenu, cart, setCart, cartItemCount}) {
     const listAmount = 187.2;
 
     return isShownMenu ? (
@@ -10,16 +10,17 @@ function Cart({isShownMenu, setIsShownMenu}) {
             <div className='cart-header'>
                 <box-icon name='x-circle' type='solid' color='#daa520' onClick={()=>(setIsShownMenu(!isShownMenu))}></box-icon>
                 <span className='title'>LISTE DE NEGOCIATION</span>
-                <span className='cart-summary'>Votre liste compte actuellement {cartItemCounter} Joueur(s)</span>
+                <span className='cart-summary'>Votre liste compte actuellement {cartItemCount} Joueur(s)</span>
             </div>
             <div className='cart-items'>
-                <div className='cart-item'>
-
-                </div>
+                {cart.map((cartItem) => (
+                    <CartItem cartItem={cartItem} />
+                ))}
             </div>
             <div className='cart-validation'>
                 <span className='cart-summary'>Votre liste de négociation est estimée à {listAmount} millions d'€.</span>
-                <span className='action-btn'>Lancer les négociations</span>
+                <span className='action-btn'>Vider la liste</span>
+                <span className='action-btn submit'>Lancer les négociations</span>
             </div>
         </section>
     ) : null;

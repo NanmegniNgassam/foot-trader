@@ -51,7 +51,7 @@
     text-align: center;
 }
 .playerItem .player-informations .action-btn:hover {
-    color: goldenrod;
+    color: rgb(245, 206, 107);
     background-color: #FFFFFF;
 }
 

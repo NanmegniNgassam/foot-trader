@@ -47,8 +47,9 @@
     font-family: 'Kdam Thmor Pro';
     transition: .5s;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
-.cart-validation .action-btn:hover {
+.cart-validation span.submit, .cart-validation .action-btn:hover {
     color: #FFFFFF;
     background-color: #daa520;
 }

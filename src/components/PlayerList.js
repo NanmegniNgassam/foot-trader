@@ -2,7 +2,7 @@ import playerList from '../datas/playerList';
 import '../styles/PlayerList.css'
 import PlayerItem from './PlayerItem';
 
-function PlayerList({searchKeyWords, orderCriteria}) {
+function PlayerList({searchKeyWords, orderCriteria, cart, setCart, setCartItemCount}) {
     let playerSelected = playerList.filter((player) => ((player.name.toLowerCase()).includes(searchKeyWords)));
     function compareCriteria(itemA, itemB) {
         if(typeof(playerList.at(0)[orderCriteria]) === 'string') {
@@ -20,7 +20,12 @@ function PlayerList({searchKeyWords, orderCriteria}) {
         <section className='list-layout'>
             <ul className="shopping-list">
                 {playerSelected.map((player) => (
-                    <PlayerItem player={player}/>
+                    <PlayerItem 
+                        player={player} 
+                        cart={cart} 
+                        setCart={setCart} 
+                        setCartItemCount={setCartItemCount}
+                    />
                 ))}
             </ul>
         </section>
