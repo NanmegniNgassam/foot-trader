@@ -1,0 +1,41 @@
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.filter-zone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-zone input, .filter-zone select {
+    min-width: 200px;
+    max-width: 400px;
+    height: 30px;
+    padding: 5px 10px;
+}
+.filter-zone input {
+    width: 50%;
+}
+
+@media screen and (max-width : 1000px) {
+    .container {
+        max-width: 800px;
+    }
+    .filter-zone {
+        margin: 0 auto;
+        width: 80%;    
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .container {
+        margin-bottom: 30px;
+    }
+    .filter-zone {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

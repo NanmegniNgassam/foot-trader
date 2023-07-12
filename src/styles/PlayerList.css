@@ -2,7 +2,12 @@
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+}
+.list-layout .no-found {
+    color: #808080;
+    font-size: 24px;
+    text-align: center;
 }
 
 .list-layout ul {
@@ -22,10 +27,16 @@
         margin: 0 auto;
         width: 80%;    
     }
+    .list-layout .no-found  {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width : 600px) {
     .list-layout ul {
         grid-template-columns: 1fr;
+    }
+    .list-layout .no-found  {
+        font-size: 16px;
     }
 }
