@@ -4,8 +4,6 @@ import PlayerData from './PlayerData';
 
 const PlayerItem = ({player, cart, setCart, setCartItemCount}) => {
     const [isCardClicked, setIsCardClicked] = useState(false);
-    const [isListed, setIsListed] = useState(false); // Etat du cart sur sa présence ou non;
-    const textAction = (isListed) ? 'Négociations en cours ...' : 'Lancer les négociations';
 
     function addToCart() {
         const currentPlayer = cart.find((cartItem) => cartItem.id === player.id);
